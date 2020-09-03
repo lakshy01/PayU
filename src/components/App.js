@@ -79,7 +79,7 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                {this.payumoney()}
+                <button onClick={() => this.payumoney()}>Pay</button>
             </div>
         );
     }
